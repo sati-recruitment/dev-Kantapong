@@ -1,0 +1,7 @@
+{
+    "ignore": ["*.test.ts", "**/fixtures/**", "./prisma/**"],
+    "execMap": {
+        "ts": "ts-node"
+    },
+    "delay": 500
+}
