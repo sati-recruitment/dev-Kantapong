@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 // import morgan from "morgan";
 import { patientRouter } from "@/modules/patient";
-import { encounterRouter } from "./modules/encounter";
+import { encounterRouter } from "@/modules/encounter";
 
 export const app = express();
 
